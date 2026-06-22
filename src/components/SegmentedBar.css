@@ -1,0 +1,18 @@
+.seg-bar {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  width: 94px;
+  flex-shrink: 0;
+}
+
+.seg {
+  width: 4px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 1px;
+}
+
+.seg-endcap {
+  height: 16px;
+}

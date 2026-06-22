@@ -1,0 +1,7 @@
+.shell {
+  height: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}

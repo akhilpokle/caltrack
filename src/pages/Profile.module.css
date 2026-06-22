@@ -1,0 +1,126 @@
+.page {
+  padding-bottom: 2rem;
+}
+
+.header {
+  padding: 1.25rem 1rem 0.75rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Presets */
+.presets {
+  margin: 0 1rem 1.5rem;
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.presetsLabel {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.presetRow {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.presetBtn {
+  flex: 1;
+  padding: 0.6rem 0.25rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  font-weight: 700;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.presetBtn:active {
+  background: var(--color-primary-light);
+  border-color: var(--color-primary);
+}
+
+.presetsHint {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.6rem;
+}
+
+/* Form */
+.form {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.protein { color: var(--color-protein); }
+.carbs   { color: var(--color-carbs); }
+.fat     { color: var(--color-fat); }
+.satFat  { color: var(--color-sat-fat); }
+
+.input {
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.75rem;
+  font-size: 1rem;
+  background: var(--color-surface);
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.saveBtn {
+  background: var(--color-primary);
+  color: #fff;
+  padding: 0.9rem;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.saveBtn:active {
+  background: var(--color-primary-dark);
+}
+
+.footer {
+  padding: 2rem 1rem 0;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}

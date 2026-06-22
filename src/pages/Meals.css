@@ -1,0 +1,117 @@
+.meals-page {
+  min-height: 100%;
+  padding: 16px 16px calc(24px + env(safe-area-inset-bottom));
+}
+
+.meals-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  text-transform: uppercase;
+}
+
+.meals-back {
+  padding: 0 4px;
+}
+
+.meals-save-btn {
+  color: #fff;
+}
+
+.meals-empty {
+  color: #666;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+
+.meals-list {
+  list-style: none;
+}
+
+.meals-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 0;
+  border-bottom: 1px solid #222;
+  cursor: pointer;
+}
+
+.meals-row-name {
+  /* uppercase already via js */
+}
+
+.meals-row-serving {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Form */
+.meals-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meals-section-label {
+  text-transform: uppercase;
+  color: #666;
+  margin-top: 8px;
+}
+
+.meals-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.meals-field-row {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.meals-label {
+  text-transform: uppercase;
+  color: #666;
+}
+
+.meals-input {
+  background: #000;
+  border: none;
+  border-bottom: 1px solid #444;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 4px 0;
+  width: 100%;
+}
+
+.meals-input-sm {
+  width: 100px;
+  text-align: right;
+}
+
+.meals-input:focus {
+  outline: none;
+  border-bottom-color: #fff;
+}
+
+.meals-delete-btn {
+  color: #ff4444;
+  text-transform: uppercase;
+  margin-top: 16px;
+}
+
+.meals-cancel-btn {
+  color: #666;
+  text-transform: uppercase;
+}
+
+.meals-confirm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-transform: uppercase;
+}

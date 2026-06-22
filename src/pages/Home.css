@@ -1,0 +1,113 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-size: 16px;
+}
+
+/* ── Header ──────────────────────────────────────────────── */
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 12px;
+}
+
+.home-date {
+  font-size: 16px;
+}
+
+.home-btn {
+  font-size: 18px;
+  padding: 4px 8px;
+  opacity: 0.8;
+}
+
+/* ── Nutrient list ───────────────────────────────────────── */
+.home-list {
+  flex: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.home-row {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.home-row-weight {
+  border-bottom: 1px solid #1a1a1a;
+}
+
+.home-row-label {
+  width: 120px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* centre column — takes all remaining space, centres the bar */
+.home-row-bar {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-row-value {
+  width: 120px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── Footer / Log food ───────────────────────────────────── */
+.home-footer {
+  position: sticky;
+  bottom: 0;
+  background: #000;
+  border-top: 1px solid #1a1a1a;
+  padding: 18px 20px calc(18px + env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+.home-log-btn {
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+/* ── Menu overlay ────────────────────────────────────────── */
+.home-menu {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 32px 24px;
+  z-index: 200;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.home-menu-item {
+  font-size: 1.5rem;
+  letter-spacing: 0.04em;
+}
+
+.home-menu-close {
+  font-size: 1rem;
+  color: #555;
+}
