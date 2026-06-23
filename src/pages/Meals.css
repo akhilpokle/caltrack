@@ -1,6 +1,6 @@
 .meals-page {
   min-height: 100%;
-  padding: 16px 16px calc(24px + env(safe-area-inset-bottom));
+  padding: max(48px, env(safe-area-inset-top)) 16px calc(24px + env(safe-area-inset-bottom));
 }
 
 .meals-header {

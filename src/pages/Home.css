@@ -1,7 +1,7 @@
 .home {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  height: 100%;
   font-size: 16px;
 }
 
@@ -29,6 +29,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  overflow-y: auto;
 }
 
 .home-row {
@@ -73,8 +74,6 @@
 
 /* ── Footer / Log food ───────────────────────────────────── */
 .home-footer {
-  position: sticky;
-  bottom: 0;
   background: #000;
   border-top: 1px solid #1a1a1a;
   padding: 18px 20px calc(18px + env(safe-area-inset-bottom));
