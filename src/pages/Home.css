@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 20px 12px;
+  padding: max(48px, env(safe-area-inset-top)) 20px 12px;
 }
 
 .home-date {
